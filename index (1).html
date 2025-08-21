@@ -2,25 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Cloth Store - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathlogic Developers</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MZG5RT6K');</script>
+  <!-- End Google Tag Manager -->
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .container { display: flex; }
+    .sidebar { width: 250px; padding: 20px; background: #f4f4f4; }
+    .sidebar nav a { display: block; margin: 10px 0; text-decoration: none; color: #333; }
+    .content { flex: 1; padding: 20px; }
+    section { padding: 60px 0; border-bottom: 1px solid #ccc; }
+    h1, h2 { margin-bottom: 20px; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Cloth Store</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
-      <a href="cart.html">Cart</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG5RT6K"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-  <section class="hero">
-    <h2>Welcome to the Cloth Store</h2>
-    <p>Trendy fashion at affordable prices</p>
-    <a class="btn" href="shop.html">Shop Now</a>
-  </section>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1>Mathlogic Developers</h1>
+      <p>Finding the flow of Data</p>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="recent-posts">
+        <h3>Recent Posts</h3>
+        <ul>
+          <li><a href="#post1">This is the first post</a></li>
+          <li><a href="#post2">Hello World!</a></li>
+        </ul>
+      </div>
+
+      <div class="social">
+        <a href="#">🐦</a>
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <!-- Home Section -->
+      <section id="home">
+        <h1>Welcome to Mathlogic Developers</h1>
+        <p>Your trusted partner in data flow and web solutions.</p>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of developers passionate about analytics, web development, and innovative solutions.</p>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>Data Analytics</li>
+          <li>SEO & Marketing</li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@mathlogic.com</p>
+        <p>Phone: +91 123 456 7890</p>
+      </section>
+
+      <!-- Posts Section -->
+      <section id="post1">
+        <h2>This is the first post</h2>
+        <p class="date">August 19, 2025</p>
+        <p>…Post content goes here…</p>
+      </section>
+
+      <section id="post2">
+        <h2>Hello World!</h2>
+        <p class="date">August 20, 2025</p>
+        <p>…Post content goes here…</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
