@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cloth Store - Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Shop</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://picsum.photos/200?random=1" alt="Shirt">
+      <h3>Casual Shirt</h3>
+      <p>$25</p>
+      <button onclick="addToCart('Casual Shirt', 25)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://picsum.photos/200?random=2" alt="Dress">
+      <h3>Summer Dress</h3>
+      <p>$40</p>
+      <button onclick="addToCart('Summer Dress', 40)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://picsum.photos/200?random=3" alt="Jeans">
+      <h3>Blue Jeans</h3>
+      <p>$30</p>
+      <button onclick="addToCart('Blue Jeans', 30)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://picsum.photos/200?random=4" alt="Jacket">
+      <h3>Leather Jacket</h3>
+      <p>$80</p>
+      <button onclick="addToCart('Leather Jacket', 80)">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
